@@ -1,0 +1,49 @@
+:root {
+    --color-0: #4A55A2;
+    --color-1: #7895CB;
+    --color-2: #A0BFE0;
+    --color-3: #C5DFF8;
+    
+}
+/* NAVBAR AYAR BAŞLA */
+h1, h2{
+    text-align: center;
+    color: var(--color-0);
+}
+li{
+    list-style-type: none;
+    margin-right: 20px;
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    list-style: none;
+    background-color: var(--color-1);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+/* NAVBAR AYAR BİTİŞ */
+
+/* SECTİON AYAR BAŞLA */
+.fixed-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  }
+.ark-rnk{
+    background-color: var(--color-1);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+a {
+    color: #B31312;
+    text-decoration: none;
+}
+p {
+    text-align: center;
+}
+/* SECTİON AYAR BİTİŞ */
